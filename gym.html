@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitLife Gym</title>
+  <link rel="stylesheet" href="Gym.css">
+</head>
+<body>
+  <header class="hero-section">
+    <div class="container">
+      <h1>Welcome to FitLife Gym</h1>
+      <p>Your journey to fitness starts here!</p>
+      <p><strong>Telebirr Account:</strong> 10005678990</p>
+      <p><strong>Amount:</strong> 1200 ETB (Monthly Membership)</p>
+      <a href="#registrationForm" class="cta-button">Register Now</a>
+    </div>
+    <div
+    id="output">waiting for a response from the backend. . .</div>
+  </header>
+
+  <main>
+    <!-- Registration Form Section -->
+    <section id="register" class="registration-section">
+      <h2>Register for Membership</h2>
+      <form id="registrationForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="paymentRef" placeholder="Payment Reference" required>
+        <button type="submit" class="submit-button">Register</button>
+      </form>
+      <p id="message"></p> <!-- Message to display success or error -->
+    </section>
+  </main>
+
+  <script src="Gym.js"></script>
+</body>
+</html>
